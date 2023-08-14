@@ -17,8 +17,8 @@ int sumarConLimite (int operador1,int operador2);
 
 //funcion main
 int main(void) {
-	// esto siempre se pone para window
-	setbuf(stdout,NULL); //siempre!!
+	setbuf(stdout,NULL);// esto siempre se pone para window
+	//setbuf(stdout,NULL); //siempre!!
 	//defino variables arrriba
 	int numero1;
 	int numero2;
