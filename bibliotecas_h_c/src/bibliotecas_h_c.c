@@ -31,8 +31,7 @@ int main(void) {
 		printf("\nError");
 	}
 
-	/////////
-
+	////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	respuesta=utn_getNumero(&edad,"ingrese su edad: \n","Error, edad debe ser entre 0 a199\n",0,199,2);
 	//utilizo esta funcion para cualquier pregunta que se quiera hacer con un numero entero
@@ -43,8 +42,7 @@ int main(void) {
 		printf("\nError");
 	}
 
-	/////////
-
+	////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	respuesta=utn_getNumero(&peso,"ingrese su peso: \n","Error, peso debe ser entre 0 a 500\n",0,500,3);
 	//utilizo esta funcion para cualquier pregunta que se quiera hacer con un numero entero
@@ -55,7 +53,7 @@ int main(void) {
 		printf("\nError");
 	}
 
-/////////
+	////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 	respuesta=utn_getNumeroFlotante( &altura ,"ingrese su altura: \n","Error, su altura debe estar entre 0 mtrs a 2,30 mts\n",0.0,2.3,2);
@@ -66,5 +64,5 @@ int main(void) {
 	}else{
 		printf("\nError");
 	}
-	return EXIT_SUCCESS;
+	return EXIT_SUCCESS; // esto me devuelve cero para todas mis funciones llamadas de la biblioteca
 }
